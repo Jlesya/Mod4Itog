@@ -1,7 +1,7 @@
 <style>
     :root {
     --primary-color: rgb(155, 213, 252);
-    --secodary-color: rgb(103, 170, 247);
+    --secodary-color: rgb(217, 148, 235);
 }
 
 * {
@@ -79,7 +79,7 @@ header {
 }
 
 .movie-info span.green{
-    color: lightgreen;
+    color: rgb(238, 144, 218);
 }
 
 .overview {
@@ -106,16 +106,34 @@ header {
             <span class="green">9.8</span>
         </div>
         <div class="overview">
-            <h3 id="Description">Описание фильма</h3>
+            <h3 id="Description">Вышел в 1988 году</h3>
         </div>
     </div>
     <div class="movie" id="movie">
         <div class="movie-info" id="MovieInfoDiv">
-            <h3 id="MovieTitle">Не Крепкий Орешек</h3>
-            <span class="green">8.0</span>
+            <h3 id="MovieTitle">1+1</h3>
+            <span class="green">8.9</span>
         </div>
         <div class="overview">
-            <h3 id="Description">Описание фильма</h3>
+            <h3 id="Description">Год создания 2011 г. 23 сентября</h3>
+        </div>
+    </div>
+    <div class="movie" id="movie">
+        <div class="movie-info" id="MovieInfoDiv">
+            <h3 id="MovieTitle">Адам и Ева </h3>
+            <span class="green">6.1</span>
+        </div>
+        <div class="overview">
+            <h3 id="Description">вышел в 2024 году 7 марта</h3>
+        </div>
+    </div>
+    <div class="movie" id="movie">
+        <div class="movie-info" id="MovieInfoDiv">
+            <h3 id="MovieTitle">Онегин</h3>
+            <span class="green">7.6</span>
+        </div>
+        <div class="overview">
+            <h3 id="Description">Год создания 2024 г. 7 марта</h3>
         </div>
     </div>
 </main>
